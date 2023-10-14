@@ -1,0 +1,13 @@
+#expandableDiv {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+#expandableDiv.open {
+    max-height: 200px; /* Điều chỉnh chiều cao tối đa bạn muốn mở */
+}
+
+#toggleButton {
+    margin-top: 10px;
+}

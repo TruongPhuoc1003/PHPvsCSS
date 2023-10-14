@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vh;
+	min-height: 100vh;
+	background: url('LI YUE.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+.form
+{
+position: relative;
+	
+	width: 900px;
+	height: 350px;
+	border: 2px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	color: #fff;
+	border-radius: 20px;
+	padding: 20px 20px;
+	display: flex;
+
+}
+
+
+.form h1
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.inputt input
+{	
+	 display: flex;
+  align-items: center;
+	
+	white-space: nowrap;
+	display: inline;
+	margin: 35px 0 ;
+	margin-right: 30px;
+	width: 20%;
+	height: 40px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255,255,255,.2);
+	border-radius: 40px;
+	font-size: 16px;
+	color: #fff;
+	padding: 20px 45px 20px 20px;
+}
+
+.lb
+{
+	
+	top: 0%;
+	
+	height: 13px;
+	margin-top: 4px;
+	transform: translateY(100%);
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.inputt .thietke
+{
+
+	
+	margin-bottom: 20px;
+	margin-left: 900px;
+	width: 30%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+
+}
